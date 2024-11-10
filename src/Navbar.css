@@ -1,0 +1,39 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem;
+    background-color:azure;
+}
+
+.navbar-brand{
+    font-weight:bold;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.navbar-search{
+    position:relative;
+}
+
+.navbar-search input{
+    padding: 0.5rem;
+    border:1px solid #ccc;
+    border-radius:5px;
+    width:1200px;
+}
+
+.navbar-butoons{
+    display:flex;
+}
+
+.btn{
+    margin-left:1rem;
+    padding:0.5rem 0.5rem;
+    background-color:beige;
+    color: cadetblue;
+    border:none;
+    border: radius 5px;
+    cursor:pointer;
+}
+

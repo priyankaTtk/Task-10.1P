@@ -1,0 +1,68 @@
+/* Basic styles for the footer */
+.footer {
+    background-color: #008080; /* Teal color */
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Social media icons */
+  .socials {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+  }
+  
+  .socials svg {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .socials svg:hover {
+    color: #cccccc; /* Change color on hover */
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #006666; /* Slightly darker teal for border */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links span {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
